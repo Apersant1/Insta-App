@@ -9,7 +9,7 @@
 .container {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 55%;
 }
 
 .logo {
@@ -17,13 +17,14 @@
 }
 .header__logo {
   font-family: "Satisfy";
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(31, 25, 58);
 }
 
 .search {
   display: flex;
   width: 30%;
+  height: 100%;
   align-items: center;
 }
 .search > input {
@@ -35,4 +36,7 @@
 .notification {
   display: flex;
   width: 30%;
+  height: inherit;
+  align-items: center;
+  justify-content: space-evenly;
 }
