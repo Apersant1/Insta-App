@@ -13,13 +13,17 @@ const Header = () => {
           <h1 className={styles.header__logo}>Instagram</h1>
         </div>
         <div className={styles.search}>
-          <input type="text" placeholder="поиск" />
+          <input
+            className={styles.search__input}
+            type="text"
+            placeholder="поиск"
+          />
         </div>
         <div className={styles.notification}>
-          <HomeIcon style={{ fontSize: "2rem" }} />
-          <ExploreIcon style={{ fontSize: "2rem" }} />
-          <FavoriteBorderIcon style={{ fontSize: "2rem" }} />
-          <AccountCircleIcon style={{ fontSize: "2rem" }} />
+          <HomeIcon style={{ fontSize: "1.6em" }} />
+          <ExploreIcon style={{ fontSize: "1.6em" }} />
+          <FavoriteBorderIcon style={{ fontSize: "1.6em" }} />
+          <AccountCircleIcon style={{ fontSize: "1.6em" }} />
         </div>
       </div>
     </header>
